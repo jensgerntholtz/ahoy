@@ -1,0 +1,53 @@
+.img-container{
+
+  .img {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+  }
+}
+
+.page-wrapper {
+  display: flex;
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .sub-title {
+    font-size: 1.2rem;
+    color: opacify(white, 0.1);
+  }
+}
+
+.card-container {
+  // display: flex;
+  background: $primary-1;
+  
+  .card-media {
+
+  }
+  
+  .card-header {
+
+  }
+  
+  .card-sub-header {
+
+  }
+  
+  .card-content {
+
+  }
+  
+  .card-actions {
+
+  }
+}

@@ -1,0 +1,23 @@
+// @import "node_modules/bootstrap/scss/bootstrap.scss";
+// Modules and Variables
+@import "partials/breakpoints";
+@import "partials/mixins";
+@import "partials/base";
+
+// Partials
+@import "partials/figures";
+@import "partials/buttons";
+// @import "partials/grids";
+@import "partials/components";
+
+// Third-party
+// @import "vendor/jquery.ui.core";
+body {
+    background: $primary-0;
+    color: white;
+    // font-family: "Open Sans Condensed", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+}

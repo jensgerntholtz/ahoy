@@ -1,0 +1,10 @@
+{
+  "name": "Ahoy",
+  "description": "Access frequently used sites",
+  "version": "0.1",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "public/index.html"
+  },
+  "manifest_version": 2
+}

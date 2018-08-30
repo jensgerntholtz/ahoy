@@ -1,0 +1,1 @@
+Chrome browser extension enables you to access and manage frequently accessed sites
