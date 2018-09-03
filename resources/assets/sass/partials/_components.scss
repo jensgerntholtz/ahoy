@@ -1,5 +1,4 @@
-.img-container{
-
+.img-container {
   .img {
     object-fit: cover;
     width: inherit;
@@ -8,20 +7,39 @@
 }
 
 .page-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.section {
+  .content {
+    justify-content: space-around;
+
+    > * {
+      margin: 1rem;
+    }
+  }
 }
 
 .title-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: min-content;
 
   .title {
+    display: block;
     font-size: 2rem;
   }
 
   .sub-title {
+    display: block;
     font-size: 1.2rem;
     color: opacify(white, 0.1);
   }
@@ -30,24 +48,23 @@
 .card-container {
   // display: flex;
   background: $primary-1;
-  
+  width: 15rem;
+  min-width: 15rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+
   .card-media {
-
   }
-  
+
   .card-header {
-
   }
-  
+
   .card-sub-header {
-
   }
-  
+
   .card-content {
-
   }
-  
-  .card-actions {
 
+  .card-actions {
   }
 }

@@ -1,0 +1,23 @@
+{
+  "name": "ahoy",
+  "version": "1.0.0",
+  "description": "Chrome browser extension enables you to access and manage frequently accessed sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass resources/assets/sass/main.scss public/css/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jensgerntholtz/ahoy.git"
+  },
+  "author": "Jens Gerntholtz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jensgerntholtz/ahoy/issues"
+  },
+  "homepage": "https://github.com/jensgerntholtz/ahoy#readme",
+  "dependencies": {
+    "flexboxgrid": "^6.3.1"
+  }
+}
