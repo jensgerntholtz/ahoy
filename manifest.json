@@ -7,7 +7,7 @@
     "newtab": "public/index.html"
   },
   "permissions": [
-    "topSites",
+    "topSites"
   ],
   "manifest_version": 2
 }
