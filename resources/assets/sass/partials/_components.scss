@@ -47,24 +47,46 @@
 
 .card-container {
   // display: flex;
+  position: relative;
+  overflow: hidden;
   background: $primary-1;
   width: 15rem;
   min-width: 15rem;
   height: 15rem;
   border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0,0,0,0.34);
+  letter-spacing: 0rem;
+
+  .card-content {
+    width: inherit;
+    padding-right: 1rem;
+  }
 
   .card-media {
+    background: $primary-2;
+    width: inherit;
+    height: 8rem;
   }
 
   .card-header {
+    // background: $primary-2;
+    width: inherit;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
   }
 
   .card-sub-header {
   }
 
-  .card-content {
-  }
-
   .card-actions {
+    width: inherit;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-top: 0.25rem;
+    padding-left: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-right: 0.25rem;
   }
 }
